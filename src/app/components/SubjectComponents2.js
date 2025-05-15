@@ -1,12 +1,11 @@
-import next from "next";
+
 import { LuFileVideo2 } from "react-icons/lu";
 import { WiTime2 } from "react-icons/wi";
 import { CgNotes } from "react-icons/cg";
 import { MdLibraryBooks } from "react-icons/md";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-export default function SubjectComponents() {
-  var data = [
+export default function () {
+     var data = [
     {
       name: "Introduction to Accounting",
       Description:
@@ -60,49 +59,28 @@ export default function SubjectComponents() {
   ];
   return (
     <>
-      {data.map((item, index) => (
-        <div
-          key={index}
-          className="w-[47%] max-[1025px]:w-[100%] max-[500px]:p-4 max-[1025px]:px-10 max-[1025px]:py-10 relative bg-white rounded p-8 overflow-hidden whitespace-normal mb-5 shadow-xl"
-        >
-          <h1 className="text-2xl max-[500px]:text-base  max-[1025px]:text-3xl font-bold max-[1025px]:mb-10">
-            {index + 1}. {item.name}
-          </h1>
-          <div className="flex max-[500px]:text-base justify-between items-start mt-5 max-[1025px]:mb-10 max-[1025px]:text-2xl shrink leading-[1.5]">
-            <p className="text-gray-500">{item.Description}</p>
-            <img
-              className="max-[500px]:w-[140px] max-[500px]:h-[100px] w-[200px] rounded h-[120px] max-[1025px]:w-[250px] max-[1025px]:h-[150px] object-cover"
-              src={item.img}
-              alt="subject"
-            />
+      <div className="flex gap-10 max-[1025px]:text-2xl max-[500px]:gap-2">
+        <div className="flex flex-col gap-6 max-[1025px]:mb-10 max-[500px]:gap-2 max-[500px]:text-base ">
+          <div className="flex gap-6 max-[1025px]:mb-10 max-[500px]:gap-2 ">
+            <LuFileVideo2 className="text-2xl text-[#dc2626]" />
+            <h1> Total Lectures: {item.lecture}</h1>
           </div>
-          <div className="flex gap-10 max-[1025px]:text-2xl max-[500px]:gap-2">
-            <div className="flex flex-col gap-6 max-[1025px]:mb-10 max-[500px]:gap-2 max-[500px]:text-base ">
-              <div className="flex gap-6 max-[1025px]:mb-10 max-[500px]:gap-2 ">
-                <LuFileVideo2 className="text-2xl text-[#dc2626]" />
-                <h1> Total Lectures: {item.lecture}</h1>
-              </div>
-              <div className="flex gap-6 max-[500px]:gap-2">
-                <MdLibraryBooks className="text-2xl text-[#dc2626]" />
-                <h1> Test Series: {item.series}</h1>
-              </div>
-            </div>
-            <div className="flex gap-6 flex-col max-[500px]:text-base max-[500px]:gap-1">
-              <div className="flex gap-6 max-[1025px]:mb-10 max-[500px]:gap-2">
-                <WiTime2 className="text-2xl text-[#dc2626]" />
-                <h1> Duration: {item.duration}</h1>
-              </div>
-              <div className="flex gap-6 max-[500px]:gap-2">
-                <CgNotes className="text-2xl text-[#dc2626]" />
-                <h1> Notes: {item.notes}</h1>
-              </div>
-            </div>
-          </div>
-          <div className="absolute right-7 bottom-3">
-            <MdOutlineKeyboardArrowRight className="text-4xl text-gray-500" />
+          <div className="flex gap-6 max-[500px]:gap-2">
+            <MdLibraryBooks className="text-2xl text-[#dc2626]" />
+            <h1> Test Series: {item.series}</h1>
           </div>
         </div>
-      ))}
+        <div className="flex gap-6 flex-col max-[500px]:text-base max-[500px]:gap-1">
+          <div className="flex gap-6 max-[1025px]:mb-10 max-[500px]:gap-2">
+            <WiTime2 className="text-2xl text-[#dc2626]" />
+            <h1> Duration: {item.duration}</h1>
+          </div>
+          <div className="flex gap-6 max-[500px]:gap-2">
+            <CgNotes className="text-2xl text-[#dc2626]" />
+            <h1> Notes: {item.notes}</h1>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
