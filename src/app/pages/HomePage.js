@@ -14,11 +14,11 @@ export default function HomePage() {
               </h3>
             </div>
             <div>
-              <h1 className="text-9xl font-bold max-[3500px]:text-8xl max-[3000px]:text-6xl max-[770px]:text-4xl max-[570px]:text-3xl">
-                <span className="text-[#dc2626] italic">Mastering</span>{" "}
+              <h1 className="text-9xl max-[3500px]:text-8xl max-[3000px]:text-6xl max-[770px]:text-4xl max-[570px]:text-3xl font-serif">
+                <span className="text-[#dc2626] font-cursive">Mastering</span>{" "}
                 Accountancy Basics
               </h1>
-              <p className="w-[90%] text-7xl text-gray-500 max-[1600px]:text-2xl max-[570px]:text-normal max-[3000px]:text-4xl max-[1600px]:mt-10 max-[3000px]:mt-20 mt-30 max-[4300px]:text-6xl max-[4300px]:mt-40 max-[3500px]:text-5xl">
+              <p className="w-[90%]  text-7xl text-gray-500 max-[1600px]:text-2xl max-[570px]:text-normal max-[3000px]:text-4xl max-[1600px]:mt-10 max-[3000px]:mt-20 mt-30 max-[4300px]:text-6xl max-[4300px]:mt-40 max-[3500px]:text-5xl">
                 Designed to help beginners and learners refresh key concepts
                 with ease. It simplifies core accounting principles and builds a
                 strong foundation for further studies or real-world application.
@@ -46,7 +46,7 @@ export default function HomePage() {
                 />
               </div>
               <div>
-                <p className="text-4xl leading-[1.5] max-[4300px]:text-6xl max-[3000px]:text-4xl max-[1600px]:text-2xl">
+                <p className="text-4xl leading-[1.5] max-[769px]:ml-10 max-[4300px]:text-4xl max-[3000px]:text-4xl max-[1600px]:text-2xl max-[3200px]:text-4xl max-[3200px]:ml-20 max-[4300px]:ml-70">
                   Instructors: CA Shashikant Dubey, CA Neha Sharma <br />{" "}
                   <span className="text-[#dc2626] underline">+2 more</span>
                 </p>

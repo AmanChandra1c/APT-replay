@@ -6,15 +6,15 @@ export default function LectureHeader() {
       <section className="container mx-auto px-4 text-black">
         <div className="container w-full mx-auto flex px-10 bg-[#FDEFEF] py-20 max-[680px]:px-5">
           <div>
-            <div className="text-2xl leading-[1.5]">
+            <div className="text-2xl leading-[1.5] max-[500px]:text-lg">
               <h3 className="max-[360px]:-mt-10">
                 <span className="text-gray-500">Home / Course / </span> Subject
               </h3>
             </div>
             <div>
-              <h1 className="text-6xl mt-30 max-[360px]:mt-5 max-[1200px]:mt-20 max-[1200px]:text-5xl max-[680px]:mt-10 max-[680px]:text-3xl">
+              <h1 className="text-6xl mt-30 max-[360px]:mt-5 font-serif max-[1200px]:mt-20 max-[1200px]:text-5xl max-[680px]:mt-10 max-[680px]:text-3xl">
                 Introduction to{" "}
-                <span className="text-[#dc2626]">Accounting</span>
+                <span className="text-[#dc2626] font-cursive">Accounting</span>
               </h1>
               <p className="text-gray-500 max-[360px]:mt-5 text-3xl mt-10 max-[1200px]:text-2xl max-[680px]:text-base ">
                 Explore the basics of accounting as the language of business,

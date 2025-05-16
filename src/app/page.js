@@ -9,9 +9,9 @@ import LecturesPage from "./pages/LecturesPage";
 export default function Home() {
   return <>
   <div className="bg-[#fff7f7] h-screen w-full overflow-auto">
-    {/* <Navbar /> */}
-    {/* <HomePage />*/}
-    {/* <SubjectPage />  */}
+    <Navbar />
+    <HomePage />
+    <SubjectPage /> 
     {/* <FacultyPage /> */}
     <LectureHeader />
     <LecturesPage />

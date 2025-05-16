@@ -63,7 +63,7 @@ export default function FacultyPage() {
             </div>
           </div>
         </div>
-        <div className="w-full text-black  gap-10 pt-10 pb-20 flex items-center justify-start flex-wrap bg-[#fdefef]">
+        <div className="w-full text-black  gap-10 pt-10 pb-20 flex items-center justify-center flex-wrap bg-[#fdefef]">
             <FacultyComponent />
         </div>
         

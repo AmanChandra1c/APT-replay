@@ -5,9 +5,9 @@ export default function LecturesPage() {
     return <>
     <section className="container mx-auto px-4 text-black pt-20 pb-30">
         <div>
-             <div className="flex justify-center items-center pb-15">
-          <h1 className="text-3xl font-semibold">
-            All <span className={`text-[#dc2626] italic`}>Lectures</span>
+             <div className="flex justify-center items-center pb-15 font-serif">
+          <h1 className="text-3xl">
+            All <span className={`text-[#dc2626] font-cursive`}>lectures</span>
           </h1>
         </div>
 
