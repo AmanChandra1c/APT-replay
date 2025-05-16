@@ -1,11 +1,10 @@
 import next from "next";
 import LectureComponent from "../components/LectureComponent";
-
 export default function LectureHeader() {
   return (
     <>
       <section className="container mx-auto px-4 text-black">
-        <div className="container mx-auto flex px-10 bg-[#FDEFEF] py-20 max-[680px]:px-5">
+        <div className="container w-full mx-auto flex px-10 bg-[#FDEFEF] py-20 max-[680px]:px-5">
           <div>
             <div className="text-2xl leading-[1.5]">
               <h3 className="max-[360px]:-mt-10">
@@ -23,7 +22,7 @@ export default function LectureHeader() {
                 transactions are recorded and organized.
               </p>
             </div>
-            <div className="flex gap-20 max-[680px]:gap-5 mt-15 max-[360px]:mt-8 max-[360px]:gap-2">
+            <div className="flex gap-20 max-[680px]:gap-5 mt-15 max-[360px]:mt-8 max-[400px]:gap-2">
               <LectureComponent />
             </div>
             <div className="mt-15 w-full ">

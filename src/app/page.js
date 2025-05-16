@@ -4,6 +4,7 @@ import Navbar from "./pages/Navbar";
 import SubjectPage from "./pages/SubjectPage";
 import FacultyPage from "./pages/FacultyPage";
 import LectureHeader from "./pages/LectureHeader";
+import LecturesPage from "./pages/LecturesPage";
 
 export default function Home() {
   return <>
@@ -13,6 +14,7 @@ export default function Home() {
     {/* <SubjectPage />  */}
     {/* <FacultyPage /> */}
     <LectureHeader />
+    <LecturesPage />
   </div>
   </>
 }
