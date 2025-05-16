@@ -1,4 +1,82 @@
+# APT-replay
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+---
+
+## Table of Contents
+
+- [Project Structure](#project-structure)
+- [Features & Components](#features--components)
+- [Getting Started](#getting-started)
+- [Learn More](#learn-more)
+- [Deploy on Vercel](#deploy-on-vercel)
+
+---
+
+## Project Structure
+
+```
+src/
+  app/
+    components/
+      FacultyComponent.js
+      HomepageComponent1.js
+      LectureComponent.js
+      LectureComponent2.js
+      SubjectComponents.js
+      SubjectComponents2.js
+    pages/
+      FacultyPage.js
+      HomePage.js
+      LectureHeader.js
+      LecturesPage.js
+      Navbar.js
+      SubjectPage.js
+```
+
+---
+
+## Features & Components
+
+### Main Pages
+
+- **HomePage**  
+  Main landing page. Shows course intro, summary stats, and featured instructors.
+
+- **FacultyPage**  
+  Highlights featured faculty and lists all faculty members.
+
+- **LecturesPage**  
+  Lists all lectures with video previews, titles, descriptions, durations, and test info.
+
+- **SubjectPage**  
+  Lists all subjects with details like lectures, duration, test series, and notes.
+
+- **LectureHeader**  
+  Header for lecture/subject pages, includes stats and enroll button.
+
+- **Navbar**  
+  Top navigation bar.
+
+### Main Components
+
+- **HomepageComponent1**  
+  Displays summary stats (subjects, lectures) with icons.
+
+- **FacultyComponent**  
+  Renders a list of faculty members with images, names, qualifications, and experience.
+
+- **LectureComponent**  
+  Shows lecture/test/notes stats with icons.
+
+- **LectureComponent2**  
+  Lists lectures with video previews, titles, descriptions, durations, and test info.
+
+- **SubjectComponents / SubjectComponents2**  
+  Show subject cards with details like lectures, duration, test series, and notes.
+
+---
 
 ## Getting Started
 
@@ -20,6 +98,8 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+---
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -28,6 +108,8 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+---
 
 ## Deploy on Vercel
 
